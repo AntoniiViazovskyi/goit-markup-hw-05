@@ -587,17 +587,42 @@
               </li>
             </ul>
           </div>
+          <div class="footer-subscribe-container">
+            <p class="footer-links-text">Subscribe</p>
+            <form class="footer-contact-form">
+              <label
+                for="footer-email"
+                class="footer-email-label visually-hidden">
+                Subscription
+              </label>
+              <div class="footer-form-wrapper">
+                <input
+                  type="email"
+                  id="footer-email"
+                  name="footer-email"
+                  placeholder="Email"
+                  class="footer-subscribe-input" />
+                <button type="submit" class="subscribe-btn hero-btn">
+                  <div class="subscribe-btn-content">
+                    Subscribe
+                    <svg class="subscribe-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-subscribe"></use>
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <script src="./js/modal.js"></script>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form>
           <div class="input-container">
@@ -680,5 +705,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
