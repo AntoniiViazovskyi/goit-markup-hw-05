@@ -92,6 +92,23 @@ h3 {
   color: #8e8f99;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .text-logo {
   display: flex;
   align-items: center;
@@ -260,9 +277,6 @@ a:focus {
 }
 
 .features-icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 264px;
   height: 112px;
   border: 1px solid #8e8f99;
@@ -325,17 +339,11 @@ a:focus {
 }
 
 .team-social-links-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   gap: 24px;
 }
 
 .team-social-link,
 .footer-social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -422,8 +430,6 @@ a:focus {
 }
 
 .footer-text-container {
-  display: flex;
-  flex-direction: column;
   gap: 16px;
   text-align: start;
 }
@@ -443,8 +449,6 @@ a:focus {
 
 .footer-links-container {
   margin-left: 120px;
-  display: flex;
-  flex-direction: column;
   gap: 16px;
 }
 
@@ -453,9 +457,6 @@ a:focus {
 }
 
 .footer-social-links-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   gap: 16px;
 }
 
@@ -466,8 +467,6 @@ a:focus {
 
 .footer-subscribe-container {
   margin-left: auto;
-  display: flex;
-  flex-direction: column;
   gap: 16px;
 }
 
@@ -503,18 +502,12 @@ a:focus {
 }
 
 .subscribe-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 8px 24px;
   min-width: 165px;
   min-height: 40px;
 }
 
 .subscribe-btn-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 16px;
 }
 
@@ -572,9 +565,6 @@ a:focus {
 
 .modal-close-btn {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   top: 24px;
   right: 24px;
   border-radius: 4px;
@@ -614,8 +604,6 @@ a:focus {
 }
 
 .input-container {
-  display: flex;
-  flex-direction: column;
   gap: 4px;
   margin-bottom: 8px;
   width: 100%;
@@ -719,9 +707,6 @@ a:focus {
 }
 
 .modal-submit-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-width: 169px;
   min-height: 56px;
 }
