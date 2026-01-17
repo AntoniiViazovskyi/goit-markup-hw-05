@@ -1,41 +1,16 @@
 :root {
-  /* Primary Brand */
   --color-primary: #4d5ae5;
-
-  /* Pressed state */
   --color-primary-pressed: #404bbf;
-
-  /* Dark */
   --color-dark: #2e2f42;
-
-  /* Success */
   --color-success: #31d0aa;
-
-  /* Text */
   --color-text: #434455;
-
-  /* Subtle text */
   --color-subtle-text: #8e8f99;
-
-  /* Accent */
   --color-accent: #f4f4fd;
-
-  /* Light */
   --color-light: #f4f4fd;
-
-  /* Modal overlay */
   --color-modal-overlay: rgba(46, 47, 66, 0.4);
-
-  /* Hero background */
   --color-hero-bg: #2e2f42;
-
-  /* White background */
   --color-white: #ffffff;
-
-  /* Modal background */
   --color-modal-bg: #fcfcfc;
-
-  /* Borders */
   --color-border: #e7e9fc;
 }
 
@@ -212,9 +187,7 @@ h3 {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list-link:hover:after,
-.nav-list-link:focus:after,
-.nav-list-link.current:after {
+.nav-list-link:is(:hover, :focus, .current)::after {
   opacity: 1;
 }
 
@@ -239,8 +212,7 @@ h3 {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-a:hover,
-a:focus {
+a:is(:hover, :focus) {
   color: var(--color-primary-pressed);
 }
 
@@ -285,8 +257,7 @@ a:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:is(:hover, :focus) {
   background-color: var(--color-primary-pressed);
 }
 
@@ -393,8 +364,7 @@ a:focus {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social-link:hover,
-.team-social-link:focus {
+.team-social-link:is(:hover, :focus) {
   background-color: var(--color-primary-pressed);
 }
 
@@ -501,8 +471,7 @@ a:focus {
   gap: 16px;
 }
 
-.footer-social-link:hover,
-.footer-social-link:focus {
+.footer-social-link:is(:hover, :focus) {
   background-color: var(--color-success);
 }
 
