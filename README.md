@@ -1,9 +1,7 @@
-# goit-markup-hw-04
+# goit-markup-hw-05
 
-GoIT Fullstack course. Third homework related to the CSS decoration effects
+GoIT Fullstack course. Fifth homework related to the CSS forms basics
 
-The task is to add styling to components by adding effect transition flow as well as the hero section image background.
-
-Additionally, the svg icons were added to the markup
+The task is to add the modal page which contains few different form inputes and the submint button.
 
 In addition, there were several additional conditions that had to be met.
